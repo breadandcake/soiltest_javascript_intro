@@ -9,15 +9,15 @@
 // This function prompts user to 
 function sampleFunction() {
     var user = prompt("What pH level is your soil?");
-    if (user <= 8) {
-    document.getElementById("Soilcalculator").innerHTML =
-    "You can plant the following: vegetables, flowers or fruits";
-    }
-    else {
-    document.getElementById("Soilcalculator").innerHTML =
-    "Your soil is to acidic 🤮";
-    }
-   }
+      if (user <= 8) {
+        document.getElementById("Soilcalculator").innerHTML =
+          "You can plant the following: vegetables, flowers or fruits";
+          }
+      else {
+        document.getElementById("Soilcalculator").innerHTML =
+          "Your soil is to acidic 🤮";
+          }
+  }
 
 
 function changeImage() {
